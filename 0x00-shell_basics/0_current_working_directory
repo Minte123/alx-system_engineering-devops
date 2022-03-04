@@ -1,3 +1,6 @@
-#!/bin/bash
-current_working_directory
+#!/bin/bash current_working_directory
+pwd
+/G/alx-system_engineering-devops/0x00-shell_basics
+
+
 
