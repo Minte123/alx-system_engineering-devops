@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l $(which action)
+PATH=$PATH:/action
