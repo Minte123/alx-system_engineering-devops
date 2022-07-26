@@ -1,2 +1,2 @@
 #!/usr/bin/env ruby
-(?<![\w\d])School(?![\w\d])
+puts ARGV[0].scan(/School/).join
