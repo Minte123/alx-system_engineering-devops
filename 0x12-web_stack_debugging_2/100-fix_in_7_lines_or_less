@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# configure nginx to run as user nginx
+sudo sed -i '/#user www-data/c\user nginx;\n' /etc/nginx/nginx.conf
+sudo sed -i 's/80/8080/g' /etc/nginx/sites-available/default
+sudo chmod 644 /etc/nginx/nginx.conf
+sudo pkill apache2
+sudo -u nginx service nginx restart
