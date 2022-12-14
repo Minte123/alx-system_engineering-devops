@@ -36,4 +36,4 @@ log-error	= /var/log/mysql/error.log
 # Disabling symbolic-links is recommended to prevent assorted security risks
 #symbolic-links=0
 server-id  = 2
-
+log_bin               = /var/log/mysql/mysql-bin.log
